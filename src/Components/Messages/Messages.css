@@ -1,0 +1,214 @@
+.messages {
+  padding: 1rem;
+}
+
+.messages .immg {
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.messages .chat_sent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.messages .groupChat_sent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.messages .chat_received {
+  display: flex;
+}
+
+.messages .groupChat_received {
+  display: flex;
+}
+
+.messages .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  margin-top: -4rem;
+}
+
+.messages ul li {
+  list-style-type: none;
+}
+
+.messages .chat_sent .profile_message {
+  max-width: 35%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  gap: 0.8rem;
+}
+
+.messages .groupChat_sent .profile_message {
+  max-width: 35%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  gap: 0.8rem;
+}
+
+.messages .chat_received .profile_message {
+  max-width: 35%;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.8rem;
+  color: white;
+}
+
+.messages .groupChat_received .profile_message {
+  max-width: 35%;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.8rem;
+  color: white;
+}
+
+.messages .profile .name {
+  color: black;
+  font-weight: 500;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.messages .likes {
+  display: flex;
+  align-items: center;
+}
+.messages .likesNumber {
+  color: black;
+  font-weight: 500;
+}
+
+.messages .chat_sent .message p {
+  background-color: #26d367;
+  padding: 0.8rem;
+  border-radius: 12px 12px 0 12px;
+}
+
+.messages .groupChat_sent .message p {
+  background-color: #26d367;
+  padding: 0.8rem;
+  border-radius: 12px 12px 0 12px;
+}
+
+.messages .chat_received .message p {
+  background-color: #202a31;
+  font-size: 0.97rem;
+  font-weight: 500;
+  padding: 0.8rem;
+  border-radius: 12px 12px 12px 0;
+}
+
+.messages .groupChat_received .message p {
+  background-color: #202a31;
+  font-size: 0.97rem;
+  font-weight: 500;
+  padding: 0.8rem;
+  border-radius: 12px 12px 12px 0;
+}
+
+.messages .overall {
+  position: relative;
+}
+
+.messages .chat_sent .overall img {
+  position: absolute;
+  left: 0;
+  width: 13px;
+  background-color: #fcf5eb;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 0.125rem;
+  border-radius: 50%;
+  margin-top: -1.5rem;
+  margin-left: 0.8rem;
+}
+
+.messages .groupChat_sent .likes {
+  position: absolute;
+  left: 0;
+  background-color: #fcf5eb;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 0.125rem;
+  border-radius: 50%;
+  margin-top: -1.5rem;
+  margin-left: 0.8rem;
+}
+
+.messages .groupChat_sent .likes img {
+  width: 13px;
+  text-align: center;
+}
+
+.messages .chat_received .overall img {
+  position: absolute;
+  right: 0;
+  width: 13px;
+  background-color: #fcf5eb;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 0.125rem;
+  border-radius: 50%;
+  margin-top: -1.5rem;
+  margin-right: 0.8rem;
+}
+
+.messages .groupChat_received .likes {
+  position: absolute;
+  right: 0;
+  background-color: #fcf5eb;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 0.125rem;
+  border-radius: 50%;
+  margin-top: -1.5rem;
+  margin-right: 0.8rem;
+}
+
+.messages .groupChat_received .likes img {
+  width: 13px;
+  text-align: center;
+}
+
+.messages .chat_sent .like_dislike {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.messages .groupChat_sent .like_dislike {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.messages .chat_received .like_dislike {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.messages .groupChat_received .like_dislike {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.messages .like_dislike img {
+  width: 20px;
+}
+
+.messages .like_dislike button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
