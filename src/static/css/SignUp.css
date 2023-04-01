@@ -1,0 +1,80 @@
+.signup {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(59, 59, 226);
+  /* padding: 0.5rem 0 0 0; */
+}
+
+.signup .container {
+  padding: 3rem 0;
+}
+
+.signup .content {
+  background-color: white;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+  border-radius: 15px;
+}
+
+.signup .header {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.signup .sub_header {
+  font-size: 1.25rem;
+}
+
+.signup .head {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.signup input {
+  border: none;
+  border-bottom: 2px solid rgb(183, 209, 233);
+  background-color: transparent;
+  outline: none;
+  font-size: 1.05rem;
+}
+
+.signup label {
+  margin-left: 0.8rem;
+}
+
+.signup .username,
+.signup .email,
+.signup .password {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.signup form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.signup button {
+  font-size: 1.05rem;
+  padding: 0.7rem 0;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(59, 59, 226);
+  color: white;
+  cursor: pointer;
+}
+
+.signup p {
+  text-align: center;
+}
+
+.signup .logging {
+  color: rgb(59, 59, 226);
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}

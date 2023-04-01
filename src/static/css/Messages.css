@@ -1,0 +1,119 @@
+.messages {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.messages .chat_sent {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.messages .chat_sent .profile_message {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.messages .overall {
+  max-width: 50%;
+}
+
+.messages .profile_message {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.messages .profile {
+  text-align: center;
+  /* margin-bottom: -4rem; */
+}
+
+.messages .profile .name {
+  color: black;
+  font-weight: bolder;
+  font-size: 0.7rem;
+}
+
+.messages .profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* margin-bottom: -2.5rem; */
+}
+
+.messages .message {
+  position: relative;
+}
+
+.messages .chat_received .message p {
+  background-color: #202a31;
+  color: #fcf5eb;
+  padding: 0.8rem;
+  font-size: 0.97rem;
+  font-weight: 500;
+  border-radius: 12px 12px 12px 0;
+}
+
+.messages .chat_sent .message p {
+  background-color: #26d367;
+  padding: 0.8rem;
+  font-size: 0.97rem;
+  font-weight: 500;
+  border-radius: 12px 12px 0 12px;
+}
+
+.messages .message .messageImg {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.messages .chat_received .message .likes {
+  position: absolute;
+  right: 0;
+  margin-top: -1.5rem;
+  margin-right: 0.8rem;
+  background-color: #fcf5eb;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 0.125rem;
+  border-radius: 50%;
+  display: flex;
+}
+.messages .chat_sent .message .likes {
+  position: absolute;
+  left: 0;
+  margin-top: -1.5rem;
+  margin-left: 0.8rem;
+  background-color: #fcf5eb;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 0.125rem;
+  border-radius: 50%;
+  display: flex;
+}
+
+.messages .likeImg {
+  width: 13px;
+}
+
+.messages .chat_received .like_dislike {
+  margin-left: 2.8rem;
+}
+.messages .chat_sent .like_dislike {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 2.8rem;
+}
+
+.messages .like_dislike img {
+  width: 20px;
+}
+
+.messages .like_dislike button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
